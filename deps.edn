@@ -1,6 +1,8 @@
 {:paths ["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.10.3"}
-        com.xtdb/xtdb-core  {:mvn/version "1.20.0"}}
+        com.xtdb/xtdb-core  {:mvn/version "1.20.0"}
+        com.xtdb/xtdb-jdbc  {:mvn/version "1.20.0"}
+        org.postgresql/postgresql {:mvn/version "42.2.18"}}
  :aliases
  {:dev
   {:extra-paths ["dev"]}
